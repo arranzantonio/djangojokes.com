@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# MY ADDITIONS
+# Visual code settings
+.vscode/
+solutions
+starter-code
