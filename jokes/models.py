@@ -1,8 +1,6 @@
 from django.db import models
 from django.urls import reverse
 
-# Create your models here.
-from django.db import models
 
 class Joke(models.Model):
     question = models.TextField(max_length=200)
