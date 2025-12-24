@@ -11,4 +11,4 @@ class Joke(models.Model):
     def get_absolute_url(self):
         return reverse('jokes:detail', args=[str(self.pk)])
     def __str__(self):
-        return self.question
+        return self.question + "llalala"

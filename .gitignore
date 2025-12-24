@@ -133,3 +133,18 @@ dmypy.json
 .vscode/
 solutions
 starter-code
+
+# Django static/media files
+/media
+/staticfiles
+/static_root
+
+# macOS
+.DS_Store
+
+# PyCharm
+.idea/
+
+# Additional env files
+.env.local
+.env.*.local
